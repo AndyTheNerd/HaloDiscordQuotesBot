@@ -21,7 +21,7 @@ client.on('message', async message => {
 		message.channel.send(quoteList[quote]);
 		//----------------//
 	 } else if (message.content === `${config.prefix}about`) {
-	 	message.channel.send("I'm a discord bot! I was made to post quotes of dialogue from the entire Halo series. I can also be used to post quotes of really anything. To contribute to this project, check out my repo at https://github.com/AndyTheNerd/HaloDiscordQuotesBot!");
+	 	message.channel.send("I'm a discord bot! I was made to post quotes of dialogue from the entire Halo series. I can also be used to post quotes of really anything. To contribute to this project, check out my repo at https://github.com/AndyTheNerd/HaloDiscordQuotesBot");
 	} 
 });
 
